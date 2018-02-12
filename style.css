@@ -17,7 +17,12 @@ body {
 .paz-main {
   border: 3px solid blue;
 }
-
+.paz-header{
+  border: 3px solid #C761DB;
+}
+.paz-header-content{
+  border: 3px solid #EBB4DB;
+}
 .clearfix {
   clear: both;
   display: table;
@@ -32,15 +37,16 @@ body {
 }
 
 body {
-  width: 900px;
+  font-family: Arial;
+  /* width: 900px; */
 }
 
 .conteiner {
-  width: 900px;
+  /* width: 900px; */
   margin: auto;
 }
 
-.main {
+.paz-main {
   width: 900px;
   margin: auto;
 }
