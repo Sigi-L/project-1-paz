@@ -14,7 +14,7 @@ body {
   border: 3px solid yellow;
 }
 
-.main {
+.paz-main {
   border: 3px solid blue;
 }
 
@@ -45,12 +45,14 @@ body {
   margin: auto;
 }
 
-.col {
+.row {
   margin: auto;
 }
 
 .col {
   float: left;
-  width: 250px;
-  margin: 10px;
+  width: 290px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: auto;
 }
