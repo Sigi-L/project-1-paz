@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   margin: 3px;
 }
 
@@ -10,7 +10,7 @@ body {
 
 .conteiner {
   /* width: 900px; */
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   font-family: Arial;
 }
 
@@ -19,7 +19,7 @@ body {
   }
 
 .paz-header-content {
-  border: 3px solid #EBB4DB;
+  /* border: 3px solid #EBB4DB; */
   background: linear-gradient(#4F4B4B, #E2DCDC);
    width: 900px;
   height: 60px;
@@ -41,7 +41,7 @@ body {
 
 }
 .paz-nav-ul {
-  background-color: #86D3F7;
+  /* background-color: #86D3F7; */
   float: right;
 }
 
@@ -67,12 +67,12 @@ body {
 }
 
 .row {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: auto;
 }
 
 .col {
-  border: 3px solid pink;
+  /* border: 3px solid pink; */
   float: left;
   width: 290px;
   margin-top: 5px;
