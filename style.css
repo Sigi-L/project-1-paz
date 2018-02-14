@@ -1,8 +1,14 @@
+
+
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  text-align: right;
+  direction: rtl;
   /* border: 3px solid black; */
-  margin: 3px;
 }
+
 
 body {
   border: 3px solid grey;
@@ -12,17 +18,18 @@ body {
   /* width: 900px; */
   /* border: 3px solid yellow; */
   font-family: Arial;
+  margin:auto;
 }
 
 .paz-header {
-  border: 3px solid #C761DB;
+  border: 3px solid rgb(38, 31, 95);
   }
 
 .paz-header-content {
-  /* border: 3px solid #EBB4DB; */
+  border: 3px solid rgb(221, 134, 20);
   background: linear-gradient(#4F4B4B, #E2DCDC);
    width: 900px;
-  height: 60px;
+  height: 50px;
 
 }
 .paz-header-content>img{
@@ -33,53 +40,89 @@ body {
 .header-lang{
   float: left;
 }
-.paz-nav>img{
+
+
+.paz-nav>a>img{
   float: right;
+  margin-left: 5px;
 }
-.paz-nav {
+/* .paz-nav {
   border: 3px solid #EBB4DB;
 
-}
+} */
 .paz-nav-ul {
   /* background-color: #86D3F7; */
   float: right;
+
 }
 
-.paz-nav-li {
+.paz-nav-li, .paz-nav-sub-li {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  display: inline;
-  
-}
-.paz-nav-li>a {
-  text-decoration: none;
+ 
 }
 
-.paz-nav-li>a:hover {
-  background-color: #F18023;
+
+.paz-nav-li {
+  display: inline;
+  position: relative;
+}
+
+.paz-nav-li:hover > .paz-nav-sub  {
+  display:block;
+  }
+  
+.paz-nav-sub {
+  position:absolute;
+  right: 0;
+  top:100%;
+  padding:0;
+  width: 200%;
+  display:none;
+  background-color: rgb(192, 189, 189);
+  margin-top: 10px;
+}
+.paz-nav-li>a, .header-lang>a, .paz-nav-sub-li>a {
+  text-decoration: none;
+  color: white;
+  padding:3px;
+}
+
+.paz-nav-li>a:hover, .header-lang>a:hover, .paz-nav-sub-li>a:hover  {
+  color: rgb(16, 50, 247);
+  text-decoration: underline;
+  background-color: rgb(121, 118, 118);
 }
 
 .paz-main {
-  border: 3px solid blue;
+  border: 3px solid rgb(34, 34, 223);
   width: 900px;
   margin: auto;
 }
 
 .row {
-  /* border: 3px solid red; */
+  border: 3px solid red;
+  width: 900px;
+  height: 355px;
   margin: auto;
 }
 
 .col {
   /* border: 3px solid pink; */
   float: left;
-  width: 290px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  /* width: 290px; */
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
   margin: auto;
+  
 }
 
+
+.col1{
+  padding:3px;
+  border-radius: 0 0  25px 0;
+}
 .clearfix {
   clear: both;
   display: table;
