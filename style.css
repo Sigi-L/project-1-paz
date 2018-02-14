@@ -16,26 +16,31 @@ body {
 
 .conteiner {
   /* width: 900px; */
-  /* border: 3px solid yellow; */
-  font-family: Arial;
-  margin:auto;
+  border: 3px solid yellow;
+
+  width: 100%;
 }
 
 .paz-header {
-  border: 3px solid rgb(38, 31, 95);
+  border: 3px solid rgb(243, 122, 196);
+  font-family: Arial;
+
+  width: 100%;
+  height: 50px;
   }
 
 .paz-header-content {
   border: 3px solid rgb(221, 134, 20);
-  background: linear-gradient(#4F4B4B, #E2DCDC);
    width: 900px;
   height: 50px;
+  margin:auto;
+  background: linear-gradient(#4F4B4B, #E2DCDC);
 
 }
 .paz-header-content>img{
   float: right;
   margin-top:10px;
-  height: 60px;
+  height: 50px;
 }
 .header-lang{
   float: left;
@@ -104,7 +109,6 @@ body {
 .row {
   border: 3px solid red;
   width: 900px;
-  height: 355px;
   margin: auto;
 }
 
@@ -117,14 +121,77 @@ body {
   margin: auto;
   
 }
+.div4>img, img4{
+  float:left;
+  /* border: 3px solid pink; */
+}
+
+.div4, ul4{
+  float:right;
+  /* border: 3px solid pink; */
+}
 
 
-.col1{
+.col1, .col2{
   padding:3px;
+  /* border: 3px solid pink; */
+}
+.col1>img{
   border-radius: 0 0  25px 0;
+  width: 292px;
+  height: 355px;
+}
+
+.col2>img{
+  border-radius: 0 25px  0 0;
+
+}
+.col2{
+  width: 292px;
+  height: 216px;
+  margin: auto;
 }
 .clearfix {
   clear: both;
   display: table;
   content: "";
+}
+
+
+.container1 {
+  position: relative;
+  font-family: Arial;
+}
+
+
+.img1,.text-block1{
+  border-radius: 0 0  25px 0;
+  
+}
+.text-block1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(73, 71, 71, 0.651);
+  color: white;
+  padding: 10px;
+  width: 240px;
+  height: 77px;
+
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.text-block1>h4{
+  padding: 4px;
+}
+.a1{
+float: left;
+color:white;
+}
+
+.over{
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
 }
